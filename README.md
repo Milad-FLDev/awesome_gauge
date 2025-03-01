@@ -5,17 +5,17 @@ awesome_gauge is a package for build gauge.
 
 Curve gauge 
 
-![gif_curve.gif](https://raw.githubusercontent.com/Milad-FLDev/awesome_gauges/video/gif_curve.gif)
+![gif_curve.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_curve.gif)
 
 Horizontal gauge
 
-![gif_horizontal.gif](https://raw.githubusercontent.com/Milad-FLDev/awesome_gauges/video/gif_horizontal.gif)
+![gif_horizontal.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_horizontal.gif)
 
 Vertical gauge
 
-![gif_vertical.gif](https://raw.githubusercontent.com/Milad-FLDev/awesome_gauges/video/gif_vertical.gif)
+![gif_vertical.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_vertical.gif)
 
 
 ## Usage
 
-[main.dart](https://raw.githubusercontent.com/Milad-FLDev/awesome_gauges/lib/main.dart)
+[main.dart](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/lib/main.dart)
