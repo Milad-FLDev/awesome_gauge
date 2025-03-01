@@ -3,19 +3,64 @@ awesome_gauge is a package for build gauge.
 
 ## Features
 
-Curve gauge 
-
-![gif_curve.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_curve.gif)
-
-Horizontal gauge
-
-![gif_horizontal.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_horizontal.gif)
-
-Vertical gauge
-
-![gif_vertical.gif](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/video/gif_vertical.gif)
+<table>
+  <tr>
+    <td><img src="https://github.com/Milad-FLDev/awesome_gauges/raw/Milad/video/gif_curve.gif" alt="Curve gauge" width="200"></td>
+    <td><img src="https://github.com/Milad-FLDev/awesome_gauges/raw/Milad/video/gif_horizontal.gif" alt="Horizontal gauge" width="200"></td>
+    <td><img src="https://github.com/Milad-FLDev/awesome_gauges/raw/Milad/video/gif_vertical.gif" alt="Vertical gauge" width="200"></td>
+  </tr>
+</table>
 
 
-## Usage
+## Curve example
 
-[main.dart](https://github.com/Milad-FLDev/awesome_gauges/tree/Milad/lib/main.dart)
+```dart
+ AwesomeGauge.curveGauge(
+   gaugeType: GaugeType.curve,
+   size: 450,
+   initialValue: 80,
+   max: 300,
+   measurementScale: 'kg',
+   gaugeColor: Colors.deepOrange,
+   backgroundColor: Colors.white,
+   onChangeValue: (value) {
+   /// Use returned value in your code
+   },
+ )
+```
+
+
+## Vertical example
+
+```dart
+AwesomeGauge.verticalGauge(
+  gaugeType: GaugeType.vertical,
+  height: 600,
+  initialValue: 90,
+  max: 300,
+  measurementScale: 'kg',
+  gaugeColor: Colors.deepOrange,
+  backgroundColor: Colors.white,
+  onChangeValue: (value) {
+  /// Use returned value in your code
+  },
+),
+```
+
+
+## Horizontal example
+
+```dart
+AwesomeGauge.horizontalGauge(
+  gaugeType: GaugeType.horizontal,
+  width: 400,
+  initialValue: 10,
+  max: 400,
+  measurementScale: 'kg',
+  gaugeColor: Colors.deepOrange,
+  backgroundColor: Colors.white,
+  onChangeValue: (value) {
+  /// Use returned value in your code
+  },
+)
+```
