@@ -18,19 +18,4 @@ Vertical gauge
 
 ## Usage
 
-Column(
- mainAxisAlignment: MainAxisAlignment.end,
- children: [
-  /// Awesome gauge widget
-  AwesomeGauge.curveGauge(
-  gaugeType: GaugeType.curve,
-  size: 450,
-  initialValue: 80,
-  max: 300,
-  measurementScale: 'kg',
-  gaugeColor: Colors.deepOrange,
-  backgroundColor: Colors.white,
-  onChangeValue: (value) {
-  /// Use returned value in your code
-  },
-),
+[main.dart](example/lib/main.dart)
