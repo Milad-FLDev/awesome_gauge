@@ -3,9 +3,17 @@ awesome_gauge is a package for build gauge.
 
 ## Features
 
-Curve gauge                           Horizontal gauge                                Vertical gauge
+Curve gauge 
 
-![gif_curve.gif](video/gif_curve.gif) ![gif_horizontal.gif](video/gif_horizontal.gif) ![gif_vertical.gif](video/gif_vertical.gif)
+![gif_curve.gif](video/gif_curve.gif)
+
+Horizontal gauge
+
+![gif_horizontal.gif](video/gif_horizontal.gif)
+
+Vertical gauge
+
+![gif_vertical.gif](video/gif_vertical.gif)
 
 
 ## Usage
